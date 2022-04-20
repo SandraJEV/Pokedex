@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 800px">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(min-width: 800px)" srcset="./assets/Pokedex.png">
+            <img src="./assets/PokedexMobile.png" alt="Pokedex Logo">
+        </picture>
+    </header>
+    <form >
+        <input type="text" id="inputPokemon" placeholder="Nombre del pokémon...">
+        <button type="button" id="botonPokemon" onclick="buscarPokemon()">Buscar</button>
+    </form>
+    <div class="contenedor2">
+        <section class="pokemon">
+                <section class="contenedor-pokemon">
+                    <p id="pokeId">Id</p>
+                    <img id="imagenPokemon" src="./assets/pokebola.png" alt="Imagen pokémon">
+                    <p id="nombrePokemon">Pokémon</p>
+                </section>
+        </section>
+        <main>
+            <div class="contenedor3">
+                <section>
+                    <p class="dato">Tipo:</p>
+                    <ul id="tipoPoke">
+                        
+                    </ul>
+                </section>
+                <section >
+                    <p class="dato">Movimientos:</p>
+                    <ul id="movimiento">
+                        
+                    </ul>
+                </section>
+            </div>
+            <section >
+                <p class="dato1">Estadísticas:</p>
+                <div class="estadisticas">
+                    <ul class="datos">
+                        <li>Puntos de vida</li>
+                        <li>Ataque</li>
+                        <li>Defensa</li>
+                        <li>Ataque especial</li>
+                        <li>Defensa especial</li>
+                        <li>Velocidad</li>
+                    </ul>
+                    <ul id="datosEstadistica">
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>Pokédex2022 SandraJEV</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
