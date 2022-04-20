@@ -16,4 +16,4 @@
 - Link de diseño en [Figma](https://www.figma.com/file/atDfV73fWx7qfdXQgA5CDr/Pok%C3%A9dex?node-id=0%3A1)
 - Bonus si tu página es responsive y se puede ver en celulares
 - Bonus de despliegue de tu pokedex
-- Bonus de uso de otras rutas como búsqueda por número de pokemón o mostrar un rango de pokemóns
+- Bonus de uso de otras rutas como búsqueda por número de pokemón
